@@ -1,0 +1,4 @@
+g++ talker.cpp -o talker_node -I/opt/ros/kinetic/include -L/opt/ros/kinetic/lib -Wl,-rpath,/opt/ros/kinetic/lib -lroscpp -lrosconsole -lrostime -lroscpp_serialization
+
+
+g++ listener.cpp -o listener_node -I/opt/ros/kinetic/include -L/opt/ros/kinetic/lib -Wl,-rpath,/opt/ros/kinetic/lib -lroscpp -lrosconsole -lrostime -lroscpp_serialization
